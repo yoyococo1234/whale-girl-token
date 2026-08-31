@@ -119,14 +119,14 @@
 
   /* ---- 被抓后的检讨书 ---- */
   #paper {
-    position: absolute; left: 50%; bottom: 30vh; transform: translateX(-50%) rotate(-3deg);
-    width: clamp(240px, 44vw, 420px); z-index: 4;
+    position: absolute; left: 50%; bottom: 19vh; transform: translateX(-50%) rotate(-3deg);
+    width: clamp(160px, 26vw, 260px); z-index: 4;
     background: #fffdf6; border: 3px solid #8a6a45; border-radius: 6px;
-    padding: 18px 20px; box-shadow: 0 10px 22px rgba(0,0,0,.22);
+    padding: 10px 12px; box-shadow: 0 8px 18px rgba(0,0,0,.22);
     display: none; text-align: center;
   }
   #paper::after {
-    content: ""; position: absolute; right: -3px; top: -3px; width: 34px; height: 34px;
+    content: ""; position: absolute; right: -3px; top: -3px; width: 24px; height: 24px;
     background: linear-gradient(225deg, #fffdf6 45%, #d9c9a8 50%, #f5ecd6 55%);
     border-left: 2px solid #8a6a45; border-bottom: 2px solid #8a6a45;
   }
@@ -135,9 +135,9 @@
     0% { transform: translateX(-50%) rotate(-3deg) scale(.6); opacity: 0; }
     100% { transform: translateX(-50%) rotate(-3deg) scale(1); opacity: 1; }
   }
-  .paper-title { font-size: clamp(14px, 2.6vw, 20px); font-weight: 800; color: #a0703c; letter-spacing: 6px; margin-bottom: 8px; }
-  .paper-main { font-size: clamp(20px, 4vw, 32px); font-weight: 900; color: #3a3a3a; line-height: 1.3; font-family: "KaiTi", "STKaiti", "Microsoft YaHei", serif; }
-  .paper-sign { margin-top: 10px; font-size: clamp(12px, 2vw, 15px); color: #8a6a45; text-align: right; }
+  .paper-title { font-size: clamp(11px, 1.8vw, 15px); font-weight: 800; color: #a0703c; letter-spacing: 4px; margin-bottom: 4px; }
+  .paper-main { font-size: clamp(15px, 2.6vw, 21px); font-weight: 900; color: #3a3a3a; line-height: 1.3; font-family: "KaiTi", "STKaiti", "Microsoft YaHei", serif; }
+  .paper-sign { margin-top: 6px; font-size: clamp(10px, 1.5vw, 12px); color: #8a6a45; text-align: right; }
   /* ---- 偷吃小特效 ---- */
   #fx { position: absolute; top: 18%; right: 12%; z-index: 5; font-size: clamp(24px, 5vw, 40px); pointer-events: none; }
   #fx span { position: absolute; right: 0; top: 0; display: none; }
