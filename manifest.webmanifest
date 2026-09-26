@@ -1,0 +1,12 @@
+{
+  "name": "小鲸鱼吃token",
+  "short_name": "小鲸鱼吃token",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffe3c7",
+  "theme_color": "#ffe3c7",
+  "icons": [
+    { "src": "assets/whale-girl-eat.png", "sizes": "800x800", "type": "image/png", "purpose": "any" }
+  ]
+}
